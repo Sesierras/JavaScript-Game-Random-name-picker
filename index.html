@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a2b433536.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Random Picker</title>
+    <i class="fa fa-viacoin" aria-hidden="true"></i>
+</head>
+
+<body>
+    <main>
+        <div class="main-tittle">
+            <h1 class="main-heading">
+                <span class="main-heading-primary">PAC-MAN</span>
+                <span class="main-heading-secondary">Random name picker!</span>
+                <br>
+            </h1>
+        </div>
+        <!-- //Canvas Pac-Man game// -->
+        <div class="wrapper">
+            <div class="mod-game">
+                <canvas id="canvass" width="960" height="640"></canvas>
+                <div class="info">
+                </div>
+            </div>
+        </div>
+        <div class="display-container">
+            <div id="display">
+            </div class="display-container">
+            <div id="display">
+            </div>
+        </div> -->
+
+        <div class="list-container">
+
+            <div class="list"></div>
+
+            <form>
+
+                <label for="addToList">Add to list:</label>
+
+                <input type="text" name="addToList" id="addToList" spellcheck="false" autocomplete="off">
+
+                <div class="form-buttons">
+                    <button id="add">Add</button>
+                    <button id="close">Close</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="buttons">
+            <div class="button-wrapper">
+                <button id="reset">Reset</button>
+                <button id="edit">Edit list</button>
+            </div>
+                <!-- <div class="button-wrapper">
+                    <!-- <div class="button-wrapper"> -->
+                        <p>Edit your list names with the buttons</p>
+
+                   <br>
+                 </div>
+                    <button onclick="window.location.href='./index-game.html';" target="_blank" id="play-now"> Play! </button>
+                    <!-- <button id="play-now" href="./index-game.html">Pick one!</button> -->
+                    <!-- <button onclick="window.open('https://educative.io/');" target="_blank" id="play-now"> Click Me! </button>  //Botones para abrir enlaces en otra pestaña// -->
+                    <br><br>
+                    <br><br>
+                    <!-- <a href="./index-game.html" id="play-now">Play now!</a> -->
+            </div>
+
+    </main>
+
+    <script src="./app.js"></script>
+    <script src="game.js"></script>
+    <script src="index.js"></script>
+    <!-- <script src="randomname.js"></script -->
+
+</body>
+
+</html>
